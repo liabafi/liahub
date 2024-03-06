@@ -1,17 +1,12 @@
-import 'dart:developer';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
 import 'package:mac_dt/theme/theme.dart';
 import 'package:provider/provider.dart';
 import '../../system/openApps.dart';
 import '../../sizes.dart';
 import '../../widgets.dart';
-import 'dart:html' as html;
-import 'dart:ui' as ui;
-
 import '../components/wallpaper/wallpaper.dart';
 import '../data/analytics.dart';
 
@@ -249,7 +244,7 @@ class _SystemPreferencesState extends State<SystemPreferences> {
                             text: "System Preferences",
                             size: 15,
                             weight:
-                                Theme.of(context).textTheme.headline3!.fontWeight,
+                                Theme.of(context).textTheme.displaySmall!.fontWeight,
                             color: Theme.of(context).cardColor.withOpacity(1),
                             softWrap: true,
                           ),
@@ -384,14 +379,14 @@ class _SystemPreferencesState extends State<SystemPreferences> {
                                     ),
                                     RichText(
                                         text: TextSpan(
-                                            text: "Chrisbin Sunny\n",
+                                            text: "Lia Batlle\n",
                                             style: TextStyle(
                                                 color: Theme.of(context)
                                                     .cardColor
                                                     .withOpacity(0.9),
                                                 fontWeight: Theme.of(context)
                                                     .textTheme
-                                                    .headline3!
+                                                    .displaySmall!
                                                     .fontWeight,
                                                 fontSize: 17,
                                                 fontFamily: "SF",

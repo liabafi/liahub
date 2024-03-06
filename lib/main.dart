@@ -1,25 +1,20 @@
-import 'dart:developer';
 import 'dart:html' as html;
 import 'dart:js';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:mac_dt/components/wallpaper/wallpaper.dart';
 import 'package:mac_dt/data/system_data.dart';
 import 'package:mac_dt/data/system_data_CRUD.dart';
 import 'package:mac_dt/system/folders/folders.dart';
 import 'package:mac_dt/providers.dart';
-import 'package:mac_dt/sizes.dart';
-import 'apps/systemPreferences.dart';
 import 'data/analytics.dart';
 import 'firebase_options.dart';
 import 'system/openApps.dart';
 import 'theme/theme.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter/foundation.dart';
 
 import 'system/desktop.dart';
 
@@ -83,7 +78,7 @@ class Home extends StatelessWidget {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Chrisbin\'s MacBook Pro',
+      title: 'Lia\'s MacBook Pro',
       navigatorObservers: [
         Provider.of<AnalyticsService>(context, listen: false)
             .getAnalyticsObserver()

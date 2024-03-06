@@ -1,9 +1,7 @@
 import 'dart:convert';
 import 'dart:ui';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:mac_dt/apps/messages/clipper.dart';
@@ -463,7 +461,7 @@ class _MessagesState extends State<Messages> {
                             bottomRight: Radius.circular(10)),
                         child: Container(
                           decoration: BoxDecoration(
-                            color: Theme.of(context).errorColor.withOpacity(1),
+                            color: Theme.of(context).colorScheme.error.withOpacity(1),
                             border: Border(
                                 left: BorderSide(
                                     color: Colors.black, width: 0.8)),
@@ -856,7 +854,7 @@ class _MessagesState extends State<Messages> {
                               color: Theme.of(context).cardColor.withOpacity(1),
                               fontFamily: "HN",
                               size: 13,
-                              weight: Theme.of(context).textTheme.headline3!.fontWeight,
+                              weight: Theme.of(context).textTheme.displaySmall!.fontWeight,
                               overflow:
                               TextOverflow.fade,
                               maxLines: 1,
@@ -1297,7 +1295,7 @@ class DetailsPainter extends CustomPainter{
       ..strokeWidth = 1;
 
     Paint paint_1 = new Paint()
-      ..color = Theme.of(context).errorColor
+      ..color = Theme.of(context).colorScheme.error
       ..style = PaintingStyle.fill
       ..strokeWidth = 1;
 

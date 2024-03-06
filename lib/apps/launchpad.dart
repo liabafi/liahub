@@ -1,16 +1,13 @@
 import 'dart:ui';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:mac_dt/apps/systemPreferences.dart';
 import 'package:mac_dt/components/finderWindow.dart';
-import 'package:mac_dt/theme/theme.dart';
 import 'package:mac_dt/widgets.dart';
 import 'package:provider/provider.dart';
 
 import '../components/wallpaper/wallpaper.dart';
-import '../data/analytics.dart';
 import '../system/componentsOnOff.dart';
 import '../system/openApps.dart';
 import '../providers.dart';
@@ -23,7 +20,6 @@ import 'safari/safariWindow.dart';
 import 'spotify.dart';
 import 'terminal/terminal.dart';
 import 'vscode.dart';
-import 'dart:html' as html;
 
 //TODO Has overflowing error when window is too small
 
@@ -201,7 +197,7 @@ class _LaunchPadState extends State<LaunchPad> {
                                 onTap: (){
                                   Provider.of<DataBus>(context, listen: false).setNotification(
                                       "App has not been installed. Create the app on GitHub.",
-                                      "https://github.com/chrisbinsunny",
+                                      "https://github.com/liabafi",
                                       "maps",
                                       "Not installed"
                                   );
@@ -273,7 +269,7 @@ class _LaunchPadState extends State<LaunchPad> {
                                 onTap: (){
                                   Provider.of<DataBus>(context, listen: false).setNotification(
                                       "App has not been installed. Create the app on GitHub.",
-                                      "https://github.com/chrisbinsunny",
+                                      "https://github.com/liabafi",
                                       "photos",
                                       "Not installed"
                                   );
@@ -285,7 +281,7 @@ class _LaunchPadState extends State<LaunchPad> {
                                 onTap: (){
                                   Provider.of<DataBus>(context, listen: false).setNotification(
                                       "App has not been installed. Create the app on GitHub.",
-                                      "https://github.com/chrisbinsunny",
+                                      "https://github.com/liabafi",
                                       "contacts",
                                       "Not installed"
                                   );
@@ -385,7 +381,7 @@ class _LaunchPadState extends State<LaunchPad> {
                                 onTap: (){
                                   Provider.of<DataBus>(context, listen: false).setNotification(
                                       "App has not been installed. Create the app on GitHub.",
-                                      "https://github.com/chrisbinsunny",
+                                      "https://github.com/liabafi",
                                       "notes",
                                       "Not installed"
                                   );

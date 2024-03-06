@@ -1,11 +1,7 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:intl/intl.dart';
 import 'package:mac_dt/data/analytics.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
-import 'package:mac_dt/theme/theme.dart';
 import 'package:provider/provider.dart';
 import '../../system/openApps.dart';
 import '../../sizes.dart';
@@ -36,7 +32,7 @@ class _AboutState extends State<About> {
   void initState() {
     position = widget.initPos;
     super.initState();
-    _iframeElementURL.src = 'https://drive.google.com/file/d/1cuIQHOhjvZfM_M74HjsICNpuzvMO0uKX/preview';
+    _iframeElementURL.src = 'https://drive.google.com/file/d/1vuccVIg18JtVeDI4q3ZY9viUsnYQvXm_/preview';
     _iframeElementURL.style.border = 'none';
     _iframeElementURL.allow = "autoplay; encrypted-media;";
     _iframeElementURL.allowFullscreen = true;
@@ -82,7 +78,7 @@ class _AboutState extends State<About> {
                     text: "Hey, I am ",
                     children: [
                       TextSpan(
-                        text: "Chrisbin Sunny,\n",
+                        text: "Lia Batlle,\n",
                         style: TextStyle(
                           color: Color(0xff118bff),
                         )
@@ -243,7 +239,7 @@ class _AboutState extends State<About> {
                     ),
                     Expanded(
                       child: Text(
-                        "Feel free to email me at chrisbinofficial@gmail.com",
+                        "Feel free to email me at lbatllefigueras@gmail.com",
                         style: TextStyle(
                           fontSize: 15,
                           color: Theme.of(context)
@@ -786,7 +782,7 @@ class _AboutState extends State<About> {
                       Expanded(
                         child: RichText(
                           text: TextSpan(
-                            text: "Chrisbin's Macbook Pro\n",
+                            text: "Lia's Macbook Pro\n",
                             children: [
                               TextSpan(
                                 text: "chrisbinsunny.github.io/chrishub\n",
@@ -1086,7 +1082,7 @@ class _AboutState extends State<About> {
                         ),
                         AboutWindowItems(
                           icon: CupertinoIcons.person_fill,
-                          iName: "About Chrisbin",
+                          iName: "About Lia",
                           isSelected: selected=="About",
                           onTap: (){
                             setState(() {

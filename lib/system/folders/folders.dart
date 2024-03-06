@@ -1,19 +1,16 @@
 import 'dart:async';
 import 'dart:developer';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hive/hive.dart';
 import 'package:mac_dt/system/folders/folders_CRUD.dart';
 import 'package:provider/provider.dart';
 
-import '../../apps/systemPreferences.dart';
 import '../../data/analytics.dart';
 import '../componentsOnOff.dart';
 import '../../providers.dart';
 import '../../sizes.dart';
-import '../openApps.dart';
 part 'folders.g.dart';
 
 

@@ -15,7 +15,7 @@ body {
   border-radius: 100px;
   align-items: center;
   position: relative;
-  padding: 0 0px;
+  padding: 0 0;
   display: flex;
   margin-top:8%;
   height: 5px;
@@ -33,7 +33,7 @@ body {
 
 @keyframes load {
   0% { width: 0; }
-  10% { width: 10; }
+  10% { width: 10%; }
   30% { width: 30%; }
   50% { width: 45%; }
   60% { width: 55%; }

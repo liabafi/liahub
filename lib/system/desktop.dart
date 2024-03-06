@@ -1,8 +1,4 @@
-import 'dart:ui';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mac_dt/apps/launchpad.dart';
 import 'package:mac_dt/components/wallpaper/wallpaper.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
@@ -13,7 +9,6 @@ import 'package:mac_dt/system/rightClickMenu.dart';
 import 'package:mac_dt/sizes.dart';
 import 'package:mac_dt/widgets.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter/rendering.dart';
 import '../components/notification.dart';
 import 'openApps.dart';
 import '../components/dock.dart';

@@ -1,8 +1,6 @@
 import 'dart:developer';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
@@ -23,7 +21,6 @@ import '../messages/messages.dart';
 import '../safari/safariWindow.dart';
 import '../spotify.dart';
 import '../vscode.dart';
-import 'commands.dart';
 
 //TODO Has an issue with cursor. Currently the issue is present in master branch of flutter.
 /// GitHub Issue: https://github.com/flutter/flutter/issues/31661
@@ -608,7 +605,7 @@ class _TerminalState extends State<Terminal> {
                               "chrisbin -- -zsh -- ${terminalFS ? screenWidth(context, mulBy: .1).floor() : screenWidth(context, mulBy: 0.04).floor()}x${terminalFS ? screenHeight(context, mulBy: 0.0966).floor() : screenHeight(context, mulBy: 0.05).floor()}",
                           fontFamily: "HN",
                           color: Theme.of(context).cardColor.withOpacity(1),
-                          weight: Theme.of(context).textTheme.headline4!.fontWeight,
+                          weight: Theme.of(context).textTheme.headlineMedium!.fontWeight,
                         )
                       ],
                     ),
@@ -833,7 +830,7 @@ class _TerminalCommandState extends State<TerminalCommand> {
                         fontFamily: "Menlo",
                         fontSize: 10,
                         fontWeight:
-                            Theme.of(context).textTheme.headline4!.fontWeight
+                            Theme.of(context).textTheme.headlineMedium!.fontWeight
                         // height: 1,
                         ),
                     decoration: new InputDecoration(
@@ -862,7 +859,7 @@ class _TerminalCommandState extends State<TerminalCommand> {
                 color: Theme.of(context).cardColor.withOpacity(1),
                 fontFamily: "Menlo",
                 fontSize: 10,
-                fontWeight: Theme.of(context).textTheme.headline4!.fontWeight),
+                fontWeight: Theme.of(context).textTheme.headlineMedium!.fontWeight),
           ),
         ),
       ],

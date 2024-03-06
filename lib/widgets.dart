@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter/widgets.dart';
 import 'package:mac_dt/providers.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter/foundation.dart';
 
 /// A [Nothing] instance, you can use in your layouts.
 const nil = Nothing();
@@ -37,7 +35,9 @@ class _NilElement extends Element {
   bool get debugDoingBuild => false;
 
   @override
-  void performRebuild() {}
+  void performRebuild() {
+    super.performRebuild();
+  }
 }
 
 
@@ -59,7 +59,7 @@ class MBPText extends StatelessWidget {
       fit: BoxFit.scaleDown,
       child: Text(text!,
         style: TextStyle(
-        fontWeight: weight==null?Theme.of(context).textTheme.headline4!.fontWeight:weight,
+        fontWeight: weight==null?Theme.of(context).textTheme.headlineMedium!.fontWeight:weight,
         fontFamily: fontFamily,
         color: color,
         fontSize: size,

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
-import 'package:mac_dt/theme/theme.dart';
 import 'package:provider/provider.dart';
 import '../data/analytics.dart';
 import '../system/openApps.dart';
@@ -29,7 +27,7 @@ class _SpotifyState extends State<Spotify> {
   void initState() {
     position = widget.initPos;
     super.initState();
-    _iframeElementURL.src = 'https://open.spotify.com/embed/playlist/2HBIMnwHxqq2Q79LFJkBtB';
+    _iframeElementURL.src = 'https://open.spotify.com/embed/playlist/6x90MMPI80sHj0unj3aT8o';
     _iframeElementURL.style.border = 'none';
     _iframeElementURL.allow = "autoplay; encrypted-media;";
     _iframeElementURL.allowFullscreen = true;

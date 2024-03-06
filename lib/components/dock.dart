@@ -1,13 +1,11 @@
 import 'dart:developer' as dev;
 import 'dart:html' as html;
-import 'dart:js' as js;
 import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart';
 import 'package:intl/intl.dart';
 import 'package:mac_dt/apps/messages/messages.dart';
 import 'package:provider/provider.dart';
@@ -120,7 +118,7 @@ class _DockerState extends State<Docker> {
                 decoration: BoxDecoration(
                   boxShadow: [
                     CustomBoxShadow(
-                        color: Theme.of(context).accentColor,
+                        color: Theme.of(context).colorScheme.secondary,
                         //color: Colors.black.withOpacity(0.2),
                         spreadRadius: 10,
                         blurRadius: 15,
@@ -316,7 +314,7 @@ class _DockerState extends State<Docker> {
                         onTap: (){
                           Provider.of<DataBus>(context, listen: false).setNotification(
                               "App has not been installed. Create the app on GitHub.",
-                              "https://github.com/chrisbinsunny",
+                              "https://github.com/liabafi",
                               "photos",
                               "Not installed"
                           );
@@ -468,7 +466,7 @@ class _DockerState extends State<Docker> {
                         onTap: (){
                           Provider.of<DataBus>(context, listen: false).setNotification(
                               "App has not been installed. Create the app on GitHub.",
-                              "https://github.com/chrisbinsunny",
+                              "https://github.com/liabafi",
                               "notes",
                               "Not installed"
                           );

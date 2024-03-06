@@ -1,4 +1,3 @@
-import 'dart:developer';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -138,7 +137,7 @@ class _NotificationsState extends State<Notifications> {
                                 style: TextStyle(
                                   color: Theme.of(context).cardColor.withOpacity(1),
                                   fontSize: 11.5,
-                                  fontWeight: Theme.of(context).textTheme.headline3!.fontWeight,
+                                  fontWeight: Theme.of(context).textTheme.displaySmall!.fontWeight,
                                 ),
                                 maxLines: 1,
                               ),
@@ -146,7 +145,7 @@ class _NotificationsState extends State<Notifications> {
                                 text: notification["notification"],
                                 color: Theme.of(context).cardColor.withOpacity(1),
                                 size: 11.5,
-                                weight: Theme.of(context).textTheme.headline2!.fontWeight,
+                                weight: Theme.of(context).textTheme.displayMedium!.fontWeight,
                                 maxLines: 1,
                               ),
                             ],

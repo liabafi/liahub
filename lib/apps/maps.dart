@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
-import 'package:mac_dt/theme/theme.dart';
 import 'package:provider/provider.dart';
 import '../sizes.dart';
-import '../widgets.dart';
 import 'dart:html' as html;
 import 'dart:ui' as ui;
 
@@ -27,7 +24,7 @@ class _MapsState extends State<Maps> {
   void initState() {
     position = widget.initPos;
     super.initState();
-    _iframeElementURL.srcdoc = '<html> <head> <meta charset="utf-8"> <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script> <style> #map { width: 100%; height: 600px; } </style> </head> <body> <div id="map"></div> <script> mapkit.init({ authorizationCallback: function(done) { var xhr = new XMLHttpRequest(); xhr.open("GET", "/services/jwt"); xhr.addEventListener("load", function() { done(this.responseText); }); xhr.send(); } }); var Cupertino = new mapkit.CoordinateRegion( new mapkit.Coordinate(37.3316850890998, -122.030067374026), new mapkit.CoordinateSpan(0.167647972, 0.354985255) ); var map = new mapkit.Map("map"); map.region = Cupertino; </script> </body> </html>';
+    _iframeElementURL.srcdoc = '<html lang="en"> <head> <meta charset="utf-8"> <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script> <style> #map { width: 100%; height: 600px; } </style> </head> <body> <div id="map"></div> <script> mapkit.init({ authorizationCallback: function(done) { var xhr = new XMLHttpRequest(); xhr.open("GET", "/services/jwt"); xhr.addEventListener("load", function() { done(this.responseText); }); xhr.send(); } }); var Cupertino = new mapkit.CoordinateRegion( new mapkit.Coordinate(37.3316850890998, -122.030067374026), new mapkit.CoordinateSpan(0.167647972, 0.354985255) ); var map = new mapkit.Map("map"); map.region = Cupertino; </script> </body> </html>';
     _iframeElementURL.style.border = 'none';
     _iframeElementURL.allow = "autoplay; encrypted-media;";
     _iframeElementURL.allowFullscreen = true;

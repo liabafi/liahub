@@ -1,7 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
 import 'package:mac_dt/system/folders/folders.dart';
 import '../apps/systemPreferences.dart';
@@ -11,7 +9,6 @@ import 'package:provider/provider.dart';
 import 'openApps.dart';
 import '../../sizes.dart';
 import '../../widgets.dart';
-import 'dart:html' as html;
 import 'dart:ui' as ui;
 
 class RightClick extends StatefulWidget {
@@ -287,7 +284,7 @@ class BrdrContainer extends StatelessWidget {
       height: screenHeight(context, mulBy: height) + 1,
       width: screenWidth(context, mulBy: width) + 1,
       decoration: BoxDecoration(
-        color: Theme.of(context).backgroundColor.withOpacity(0.00),
+        color: Theme.of(context).colorScheme.background.withOpacity(0.00),
         borderRadius: BorderRadius.all(Radius.circular(10)),
         border: Border.all(color: Theme.of(context).shadowColor, width: 1),
       ),

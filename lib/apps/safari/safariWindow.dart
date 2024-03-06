@@ -1,9 +1,6 @@
-import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:mac_dt/system/componentsOnOff.dart';
-import 'package:mac_dt/theme/theme.dart';
 import 'package:provider/provider.dart';
 import '../../data/analytics.dart';
 import '../../system/openApps.dart';
@@ -399,7 +396,7 @@ class _SafariState extends State<Safari> {
                                               size: 22,
                                               weight: Theme.of(context)
                                                   .textTheme
-                                                  .headline1!
+                                                  .displayLarge!
                                                   .fontWeight,
                                             ),
                                             SizedBox(
@@ -530,7 +527,7 @@ class _SafariState extends State<Safari> {
                                                 InkWell(
                                                   onTap: () {
                                                     handleDOC(
-                                                      '<a class="twitter-timeline" href="https://twitter.com/chrisbinsunny?ref_src=twsrc%5Etfw">Tweets by chrisbinsunny</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
+                                                      '<a class="twitter-timeline" href="https://twitter.com/chrisbinsunny?ref_src=twsrc%5Etfw">Tweets by lia</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
                                                     );
 
                                                   },
@@ -570,7 +567,7 @@ class _SafariState extends State<Safari> {
                                                 InkWell(
                                                   onTap: () {
                                                     html.window.open(
-                                                        "https://github.com/chrisbinsunny",
+                                                        "https://github.com/liabafi",
                                                         "new_tab");
                                                   },
                                                   child: Column(
@@ -665,7 +662,7 @@ class _SafariState extends State<Safari> {
                                                 size: 22,
                                                 weight: Theme.of(context)
                                                     .textTheme
-                                                    .headline1!
+                                                    .displayLarge!
                                                     .fontWeight,
                                               ),
                                               SizedBox(
@@ -709,7 +706,7 @@ class _SafariState extends State<Safari> {
                                                               mulBy: 0.01),
                                                         ),
                                                         MBPText(
-                                                          text: "Chrisbin's MacBook Pro",
+                                                          text: "Lia's MacBook Pro",
                                                           size: 10,
                                                           color: Theme.of(context)
                                                               .cardColor

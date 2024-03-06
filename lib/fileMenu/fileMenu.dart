@@ -1,11 +1,9 @@
 
-import 'dart:developer';
 import 'dart:html';
 import 'dart:math' as math;
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:mac_dt/system/openApps.dart';
