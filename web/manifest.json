@@ -1,11 +1,11 @@
 {
-    "name": "Chrisbin's MacBook Pro",
-    "short_name": "Chrisbin's MacBook Pro",
+    "name": "Lia's MacBook Pro",
+    "short_name": "Lia's MacBook Pro",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Chrisbin's portfolio built as a web Simulation of macOS Big Sur.",
+    "description": "Lia's portfolio built as a web Simulation of macOS Sonoma.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
