@@ -2,9 +2,9 @@
 ![ChrisHub Logo](docs/chrishubLogo.jpg)
 
 
-# Chrisbin's MacBook Pro
+# Lia's MacBook Pro
 
-Chrisbin’s MacBook Pro is a portfolio website created as a web Simulation of macOS Big Sur using Flutter web. The idea is to provide a glimpse at my personal MacBook Pro. The project shows the power of Flutter Web in action.
+Lia’s MacBook Pro is a portfolio website created as a web Simulation of macOS Big Sur using Flutter web. The idea is to provide a glimpse at my personal MacBook Pro. The project shows the power of Flutter Web in action.
 
 
 ![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fchrisbinsunny.github.io%2Fchrishub)

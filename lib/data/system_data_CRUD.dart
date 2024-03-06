@@ -22,7 +22,7 @@ class SystemDataCRUD{
         'systemData',
         defaultValue: SystemData(
             dark: true,
-            wallpaper: WallData(name: "Big Sur Illustration", location: "assets/wallpapers/bigsur_.jpg")
+            wallpaper: WallData(name: "Sonoma Illustration", location: "assets/wallpapers/sonoma_.jpg")
         )
     );
 
@@ -39,7 +39,7 @@ class SystemDataCRUD{
         'systemData',
         defaultValue: SystemData(
             dark: true,
-            wallpaper: WallData(name: "Big Sur Illustration", location: "assets/wallpapers/bigsur_.jpg")
+            wallpaper: WallData(name: "Sonoma Illustration", location: "assets/wallpapers/sonoma_.jpg")
         )
     );
     systemData!.wallpaper= wallData!;
@@ -56,7 +56,7 @@ class SystemDataCRUD{
         'systemData',
         defaultValue: SystemData(
             dark: true,
-            wallpaper: WallData(name: "Big Sur Illustration", location: "assets/wallpapers/bigsur_.jpg")
+            wallpaper: WallData(name: "Sonoma Illustration", location: "assets/wallpapers/sonoma_.jpg")
         )
     );
 
@@ -75,7 +75,7 @@ class SystemDataCRUD{
         'systemData',
         defaultValue: SystemData(
             dark: true,
-            wallpaper: WallData(name: "Big Sur Illustration", location: "assets/wallpapers/bigsur_.jpg")
+            wallpaper: WallData(name: "Sonoma Illustration", location: "assets/wallpapers/sonoma_.jpg")
         )
     );
     if(themeData==ThemeNotifier.darkTheme)

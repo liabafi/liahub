@@ -22,7 +22,7 @@ class _WallpaperState extends State<Wallpaper> {
 
   late WallData wallpaper;
   List<WallData> wallData=[
-    WallData(name: "Big Sur Illustration", location: "assets/wallpapers/bigsur_.jpg"),
+    WallData(name: "Sonoma Illustration", location: "assets/wallpapers/sonoma_.jpg"),
     WallData(name: "Big Sur", location: "assets/wallpapers/realbigsur_.jpg"),
     WallData(name: "Big Sur Valley", location: "assets/wallpapers/bigSurValley_.jpg"),
     WallData(name: "Iridescence", location: "assets/wallpapers/iridescence_.jpg"),
