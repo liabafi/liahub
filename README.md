@@ -24,6 +24,8 @@ To debug this project run
 
 ```bash
   flutter run -d chrome --web-renderer canvaskit
+  or
+  flutter run -d chrome --web-renderer html
 ```
 <br/>
 

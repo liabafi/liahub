@@ -20,8 +20,8 @@ class DataBus extends ChangeNotifier{
   double scale= 1;
   //TODO: Have to change default notification according to device
   Map<String, String> notification= {
-    "notification":"Welcome to Chrisbin's MacBook Pro",
-    "url":"https://github.com/chrisbinsunny",
+    "notification":"Welcome to Lia's MacBook Pro",
+    "url":"https://github.com/liabafi",
     "app":"apple",
     "head":"Welcome"
   };
