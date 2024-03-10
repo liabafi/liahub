@@ -489,7 +489,7 @@ class _SafariState extends State<Safari> {
                                                 InkWell(
                                                   onTap: () {
                                                     handleURL(
-                                                        "https://www.youtube.com/embed/GEZhD3J89ZE?start=4207&autoplay=1&enablejsapi=1");
+                                                        "https://www.youtube.com/embed/GYkq9Rgoj8E?si=RCvv04AQ2GQ0wJ-C&amp;controls=0");
                                                   },
                                                   child: Column(
                                                     children: [
@@ -527,7 +527,7 @@ class _SafariState extends State<Safari> {
                                                 InkWell(
                                                   onTap: () {
                                                     handleDOC(
-                                                      '<a class="twitter-timeline" href="https://twitter.com/chrisbinsunny?ref_src=twsrc%5Etfw">Tweets by lia</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
+                                                      '<a class="twitter-timeline" href="https://twitter.com/liabatlle_">Tweets by lia</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>',
                                                     );
 
                                                   },
@@ -606,7 +606,7 @@ class _SafariState extends State<Safari> {
                                                 InkWell(
                                                   onTap: () {
                                                     html.window.open(
-                                                        "https://www.instagram.com/binary.ghost",
+                                                        "https://www.instagram.com/liabatlle_/",
                                                         "new_tab");
                                                   },
                                                   child: Column(

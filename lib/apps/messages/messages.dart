@@ -1141,7 +1141,7 @@ class _MessagesState extends State<Messages> {
                             Align(
                               alignment: Alignment.centerLeft,
                               child: Text(
-                                "You are free to contact me anytime for business needs or enquiry about Chrisbin. Select info for more.",
+                                "You are free to contact me anytime for business needs or enquiry about Lia. Select info for more.",
                                 style: TextStyle(
                                   color: Theme.of(context).cardColor.withOpacity(0.5),
                                   fontFamily: "HN",
