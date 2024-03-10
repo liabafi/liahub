@@ -14,5 +14,5 @@ jobs:
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
           targetBranch: production
-          baseHref: /chrishub/
+          baseHref: /liahub/
           customArgs: --web-renderer canvaskit
